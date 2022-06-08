@@ -40,4 +40,7 @@ export default defineConfig({
     PkgConfig(),
     OptimizationPersist(),
   ],
+  resolve: {
+    dedupe: ['vue']
+  }
 })
